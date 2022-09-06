@@ -18,6 +18,8 @@ public class HelloWorld {
         System.out.println("What is your name? ");
         String name = scanner.nextLine();
         System.out.println("Hello"+ name);
-
+        System.out.println("Give number");
+        int age = scanner.nextInt();
+        System.out.println("Your number "+age);
     }
 }
