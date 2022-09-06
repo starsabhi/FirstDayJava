@@ -1,5 +1,20 @@
+import java.util.Scanner;
 public class HelloWorld {
     public static void main(String[] args){
-        System.out.println("Hello World");
+        System.out.println("\tHello World\nHello");
+        //this is comment
+
+        int x = 29;
+        double y = 3.14;
+        boolean z = true;
+        char symbol = '@';
+        String name = "Bro";
+        System.out.println(x);
+        String a = "not me";
+        String b = "who is there?";
+        System.out.println(b+" " + a);
+
+        Scanner scanner = new Scanner(System.in);
+
     }
 }
