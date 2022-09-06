@@ -1,8 +1,18 @@
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 public class HelloWorld {
     public static void main(String[] args){
-        System.out.println("\tHello World\nHello");
-//        //this is comment
+
+        String name = JOptionPane.showInputDialog("Enter your name");
+        JOptionPane.showMessageDialog(null,"Hello "+name);
+
+        int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
+        JOptionPane.showMessageDialog(null,"Your age "+age);
+
+//        System.out.println("\tHello World\nHello");
+
+
+        //        //this is comment
 //
 //        int x = 29;
 //        double y = 3.14;
@@ -12,14 +22,14 @@ public class HelloWorld {
 //        System.out.println(x);
 //        String a = "not me";
 //        String b = "who is there?";
-//        System.out.println(b+" " + a);
-
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("What is your name? ");
-        String name = scanner.nextLine();
-        System.out.println("Hello"+ name);
-        System.out.println("Give number");
-        int age = scanner.nextInt();
-        System.out.println("Your number "+age);
+////        System.out.println(b+" " + a);
+//
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("What is your name? ");
+//        String name = scanner.nextLine();
+//        System.out.println("Hello"+ name);
+//        System.out.println("Give number");
+//        int age = scanner.nextInt();
+//        System.out.println("Your number "+age);
     }
 }
