@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63d701da-b2dc-478e-ae7e-c45914e19fd9" name="Changes" comment="Another change1">
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld.java" afterDir="false" />
-    </list>
+    <list default="true" id="63d701da-b2dc-478e-ae7e-c45914e19fd9" name="Changes" comment="Another change2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662507874252</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Another change2">
+      <created>1662508029392</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662508029392</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +123,7 @@
     <MESSAGE value="First Change" />
     <MESSAGE value="Another change" />
     <MESSAGE value="Another change1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Another change1" />
+    <MESSAGE value="Another change2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Another change2" />
   </component>
 </project>

@@ -2,11 +2,15 @@ import java.util.Scanner;
 import javax.swing.JOptionPane;
 public class HelloWorld {
     public static void main(String[] args){
-        String name = JOptionPane.showInputDialog("Enter your name");
-        JOptionPane.showMessageDialog(null,"Hello "+name);
+        double x = 3.14;
+        double y = -10;
 
-        int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
-        JOptionPane.showMessageDialog(null,"Your age "+age);
+        Math.max(x,y);
+//        String name = JOptionPane.showInputDialog("Enter your name");
+//        JOptionPane.showMessageDialog(null,"Hello "+name);
+//
+//        int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
+//        JOptionPane.showMessageDialog(null,"Your age "+age);
 
 //        System.out.println("\tHello World\nHello");
 
