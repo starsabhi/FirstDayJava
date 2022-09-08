@@ -3,13 +3,19 @@ import javax.swing.JOptionPane;
 import  java.util.Random;
 public class HelloWorld {
     public static void main(String[] args){
-    int age = 20;
-    if(age < 30){
-        System.out.println("Hello");
-    }
+
     }
 }
-
+//    int age = 20;
+//    if(age < 10){
+//        System.out.println("Hello");
+//        }
+//        else if (age == 20){
+//        System.out.println("Hello 20");
+//        }
+//        else{
+//        System.out.println("Hello NO");
+//        }
 //    Random random = new Random();
 //
 //    int x = random.nextInt(7);
