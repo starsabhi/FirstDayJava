@@ -2,10 +2,29 @@ import java.util.Scanner;
 import javax.swing.JOptionPane;
 public class HelloWorld {
     public static void main(String[] args){
-        double x = 3.14;
-        double y = -10;
+    double x;
+    double y;
+    double z;
+    Scanner scanner = new Scanner(System.in);
 
-        Math.max(x,y);
+    System.out.print("Enter side x: ");
+    x = scanner.nextDouble();
+
+    System.out.println("Enter side y: ");
+    y = scanner.nextDouble();
+
+    z = Math.sqrt((x*x)+(y*y));
+
+    System.out.println("The hypotenuse is :"+z);
+    scanner.close();
+    }
+}
+
+//    double x = 3.14;
+//    double y = -10;
+//
+//    double z = Math.max(x,y);
+//        System.out.println(z);
 //        String name = JOptionPane.showInputDialog("Enter your name");
 //        JOptionPane.showMessageDialog(null,"Hello "+name);
 //
@@ -15,7 +34,7 @@ public class HelloWorld {
 //        System.out.println("\tHello World\nHello");
 
 
-        //        //this is comment
+//        //this is comment
 //
 //        int x = 29;
 //        double y = 3.14;
@@ -34,5 +53,3 @@ public class HelloWorld {
 //        System.out.println("Give number");
 //        int age = scanner.nextInt();
 //        System.out.println("Your number "+age);
-    }
-}
