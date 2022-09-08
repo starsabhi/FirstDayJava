@@ -3,13 +3,17 @@ import javax.swing.JOptionPane;
 import  java.util.Random;
 public class HelloWorld {
     public static void main(String[] args){
-    Random random = new Random();
-
-    int x = random.nextInt(7);
-    System.out.println(x);
-
+    int age = 20;
+    if(age < 30){
+        System.out.println("Hello");
+    }
     }
 }
+
+//    Random random = new Random();
+//
+//    int x = random.nextInt(7);
+//    System.out.println(x);
 
 //    double x = 3.14;
 //    double y = -10;
