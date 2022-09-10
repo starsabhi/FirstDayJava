@@ -3,17 +3,26 @@ import javax.swing.JOptionPane;
 import  java.util.Random;
 public class HelloWorld {
     public static void main(String[] args){
-    String day = "nine";
 
-    switch (day){
-        case "Sunday":System.out.println("It is sunday.");
-        break;
-        case "Friday":System.out.println("It is Friday.");
-        break;
-        default:System.out.println("That is not day!");
-    }
+        Scanner scanner = new Scanner(System.in);
+        String name = "";
+
+        while(name.isBlank()){
+            System.out.println("Enter your name: ");
+            name = scanner.nextLine();
+        }
+        System.out.println("Hello "+name);
     }
 }
+
+//    String day = "nine";
+
+//    switch (day){
+//        case "Sunday":System.out.println("It is sunday.");
+//            break;
+//        case "Friday":System.out.println("It is Friday.");
+//            break;
+//        default:System.out.println("That is not day!");
 //    int age = 20;
 //    if(age < 10){
 //        System.out.println("Hello");
