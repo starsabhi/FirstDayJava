@@ -3,8 +3,11 @@ import javax.swing.JOptionPane;
 import  java.util.Random;
 public class HelloWorld {
     public static void main(String[] args){
-
-
+        int newNumber = 1;
+        while(newNumber<10){
+            System.out.println("Hello new "+ newNumber);
+            newNumber++;
+        }
     }
 }
 
