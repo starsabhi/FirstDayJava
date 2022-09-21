@@ -3,21 +3,9 @@ import javax.swing.JOptionPane;
 import  java.util.Random;
 public class HelloWorld {
     public static void main(String[] args){
-        String[] cars = {"Camaro","Corvette","tesla"};
-        int[] numbers = {1,5,6,9};
-        cars[0] = "Mustang";
+        //2D arrays
+        String[][] cars = new String[3][3];
 
-        String[] forNewval = new String[1];
-
-        forNewval[0] = "NewHappy";
-
-        System.out.println(forNewval[0]);
-        System.out.println(cars[0]);
-        System.out.println(numbers[0]);
-
-        for(int i=0; i< cars.length; i++){
-            System.out.println(cars[i]);
-        }
 
 
     }
