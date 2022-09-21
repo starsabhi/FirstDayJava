@@ -3,11 +3,11 @@ import javax.swing.JOptionPane;
 import  java.util.Random;
 public class HelloWorld {
     public static void main(String[] args){
-        //2D arrays
-        String[][] cars = new String[3][3];
 
+        String name = "Author";
 
-
+        boolean result = name.equals("author");
+        System.out.println(result);
     }
 }
 
