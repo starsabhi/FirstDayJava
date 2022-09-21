@@ -4,9 +4,12 @@ import  java.util.Random;
 public class HelloWorld {
     public static void main(String[] args){
         String[] cars = {"Camaro","Corvette","tesla"};
+        int[] numbers = {1,5,6,9};
         cars[0] = "Mustang";
 
         System.out.println(cars[0]);
+        System.out.println(numbers[0]);
+
     }
 }
 
